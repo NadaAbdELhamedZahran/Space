@@ -1,0 +1,688 @@
+@media (max-width:90em){
+    .navbar{
+        display: none;
+    }
+    .loading{margin-left: 51rem;}
+}
+
+/* Below 1344px 84em  (smaller desktop)  */
+/* -------------------------------- */
+ 
+@media (max-width: 84em){
+    html{
+        /* 9px / 16px */
+        font-size: 56.25%;
+    }
+    .container{
+        max-width: 117rem;
+    }
+    .header nav{
+        grid-template-rows: 5.8rem;
+        column-gap: 18.8rem;
+    }
+    .workspace{
+        max-width: 110rem;
+    }
+    .Ellipse-img-3 {
+        top: -3rem;
+        left: 43rem;
+    }
+    .form-place button{
+        margin-left: 7rem;
+    }
+    .co-work{
+        left: 31.7rem;
+        top: 31.9rem;
+    }
+
+    .services .workspace-img-2{
+        left: 31rem;
+    }
+    .services-right-side{
+        padding: 5rem;
+    }
+    .column-gap-grid{
+        column-gap: 3rem;
+    }
+    .visions .gap{
+        column-gap: 0rem;
+    }
+    .photos{
+        width: 63rem;
+    }
+    .photos img{
+        height: 23rem;
+    }
+    .become-A-Member{padding-top: 23rem ;}
+
+    .become-A-Member-right-side::before{
+        top: -9.6rem;
+    }
+    .news{
+        width: 57.8rem;
+    }
+    .news::before{
+        top: -6.8rem;
+        left: 5rem
+    }
+    .space{
+        width: 135rem;
+    }
+    /* .navbar{display: none;} */
+    .loading{
+        margin-left: 51rem;
+    }
+
+}
+
+/* Below 1200px (landscape tablets) */
+/* -------------------------------- */
+@media (max-width:75em){
+    .container{max-width: 1170px;}
+    html{
+        /* 8px / 16px */
+        font-size: 50%;
+    }
+    .first-page{padding-bottom: 88.8rem;}
+    .workspace{grid-template-columns: 1fr;}
+    .workspace-text,
+    .workspace-images{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header-page{
+        width: 80.3rem;
+        margin-top: 4.8rem;
+        margin-bottom: 0.8rem;
+    }
+    .booked-people{
+        margin-top: 8rem;
+        justify-content: center;
+    }
+    .form-place{
+        width: 62.8rem;
+        top: 60rem;
+        left: -57rem;
+    }
+    .form-place button{margin-left: 0rem;}
+    #myBtn #popuptext{margin-left: -83px;}
+    .Ellipse-img-1 {
+        top: -4rem;
+        left: -20rem;
+    }
+    .Ellipse-img-2 {
+        top: -7rem;
+        left: 16rem;
+    }
+    .Ellipse-img-3 {
+        top: 26rem;
+        left: 40rem;
+    }
+    .Ellipse-img-4 {
+        top: 12rem;
+        left: 47rem;
+    }
+    .co-work {
+        left: 28.7rem;
+        top: 65.9rem;
+    }
+    .services-right-side{
+        padding-left: 10rem;
+        row-gap: 4rem;
+    }
+    .services .workspace-img-2 {
+        left: 39rem;
+        top: 48rem;
+    }
+    .visions{
+        padding-top: 9rem;
+        padding-bottom: 80rem;
+    }
+    .visions .container{
+        grid-template-columns: 1fr;
+        row-gap: 9rem;
+    }
+    .visions-left-side,
+    .visions-right-side{
+        margin: 0 auto;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+    .visions-right-side::before{
+        left: -35rem;
+        width: 65rem;
+        height: 45rem;
+    }
+    .visions-left-side{
+        width: 80rem;
+        gap: 0rem;
+    }
+    .vision .subheading {margin: 0 auto;}
+    .vision .Paragraph{margin: 0 auto;}
+    .visions-left-side .heading-secondary{
+        width: 86rem;
+        margin-bottom: 0rem;
+    }
+    .visions-sm-parargraph{justify-items: center; column-gap: 7rem;}
+    .general-button{align-self: center;}
+    .Rec1{    
+        top: -10.8rem;
+        left: 19.6rem;
+    }
+    .Rec2{
+        left: -16rem;
+        top: -7.5rem;
+    }
+    .Rec3{
+        top: 26rem;
+        left: 21rem;
+    }
+    .Rec4{
+        top: 36rem;
+        left: -21rem;
+    } 
+     .Ellipse-11{
+        top: 39.5rem;
+        left: -24.8rem;
+    }
+    .column-gap-grid{column-gap: 0rem;}
+    .solutions-right-side img{max-width: 100%;}
+    .become-A-Member-right-side::before {top: -17.6rem; left: 0;}
+    .news{width: -0.2rem;}
+    .news::before{
+        top: -7.8rem;
+        left: 5.2rem;
+    }
+    .gaps{column-gap: 1rem;}
+    .space{width: 149rem;}
+    .items{justify-items: start;}
+    /* .navbar{display: none;} */
+    .first-col .Paragraph{ text-align: start;}
+    .loading{
+        margin-left: 55rem;
+    }
+}
+
+/* Below 848px 53em (tablets)*/
+/* ***************** */
+@media (max-width: 53em ){
+    .container{
+        width: 820px;
+        padding: 0%;
+    }
+    .the-toggler{
+        display: block;
+        position: absolute;
+        top: 2.6rem;
+        right: 9rem;
+    }
+    .nav .left-nav-list,
+    .nav .right-nav-list{
+        display: none;
+    } 
+    .first-page{padding-bottom: 88.8rem;}
+    .workspace{grid-template-columns: 1fr;}
+    .workspace-text,
+    .workspace-images{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header-page{
+        width: 35.3rem;
+        margin-top: 4.8rem;
+        margin-bottom: 0.8rem;
+    }
+    .header .navbar{
+        width: 20%;
+        text-align: center;     
+        left: 72.2rem;
+    }
+    .booked-people{
+        margin-top: 8rem;
+        justify-content: center;
+    }
+    .form-place{left: -51rem;}
+    .Ellipse-img-1 {
+        top: -4rem;
+        left: -40rem;
+    }
+    .Ellipse-img-2 {
+        top: -7rem;
+        left: -6rem;
+    }
+    .Ellipse-img-3 {
+        top: 26rem;
+        left: 20rem;
+    }
+    .Ellipse-img-4 {
+        top: 12rem;
+        left: 24rem;
+    }
+    .co-work {
+        left: 9.7rem;
+        top: 66.9rem;
+    }
+    .Rec1{    
+        top: -10.8rem;
+        left: 17.6rem;
+    }
+    .Rec2{
+        left: -21rem;
+        top: -7.5rem;
+    }
+    .Rec3{
+        top: 26rem;
+        left: 9rem;
+    }
+    .Rec4{
+        top: 36rem;
+        left: -32rem;
+    } 
+     .Ellipse-11{
+        top: 39.5rem;
+        left: -32.8rem;
+    }
+    .services .workspace-img-1{max-width: 90%;}
+    .services .workspace-img-2 {
+        left: 52rem;
+        top: 60rem;
+    }
+    .grid--2--cols{grid-template-columns: 1fr;}
+    .services-left-side,
+    .services-right-side,
+    .solutions-left-side,
+    .solutions-right-side,
+    .gallery-left-side,
+    .gallery-right-side,
+    .become-A-Member-left-side,
+    .become-A-Member-right-side{
+        margin: 0 auto;
+        align-items: center;
+        padding-left:0;
+    }
+    .services .container {row-gap: 28rem;}
+    .services-buttons {
+        margin-top: 5rem;
+        justify-content: center;    
+    }
+    .solutions .container,
+    .gallery .container{
+        row-gap: 5rem;
+    }
+    .whyChooseUs-lower-page {
+        grid-template-columns: repeat(2,35rem);
+        row-gap: 2rem;
+    }
+    .services-right-side .heading-secondary{        
+        margin-bottom: -2rem;
+        width: 47.8rem;
+        margin-bottom: 0rem;
+    }
+    .visions-left-side .heading-secondary{
+       width: 57rem; 
+       margin-bottom: 2rem;
+    }
+    .visions-sm-parargraph .data{column-gap: 3rem;}
+    .heading-secondary{text-align: center;}
+    .become-A-Member .container{
+        row-gap: 20rem;
+    }
+    .become-A-Member{padding-top: 12rem ;}
+    .visions-sm-parargraph {
+        row-gap: 2.2rem;
+        column-gap: 8.2rem;
+    }
+    .last-updates .container{justify-items: center;}
+    .last-updates .load-more{margin-bottom: 5rem;}
+    .news-box .subheading,
+    .news-box .heading-secondary,
+    .news-box .Paragraph{
+        text-align: start;
+        margin: 0;
+    }
+    
+    .space{
+        width: 106rem;
+        padding-top: 13rem;
+        margin: 0 auto;
+        padding-left: 12rem;
+    }
+    .space .container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr;
+        row-gap: 5rem;
+        column-gap: 2rem;
+    }
+    .space .subheading{margin: 0;}
+    .first-col .Paragraph {width: 30.2rem;}
+    .subheading {margin: 0 auto;}
+    .Paragraph{margin: 0 auto; text-align: center;}
+    .loading{
+        margin: 5rem auto;
+    }
+}
+
+/* Below 720px 45em (mobile Large) */
+@media(max-width:45em){
+    .container{
+        width: 400px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    html{
+        /* 7px / 16px */
+        font-size: 43%;
+    }
+    body{margin: 0 auto;}
+    .the-toggler {right: 2rem;}
+    .workspace {max-width: 50rem;}
+    .header .navbar{    
+        left: 332px;
+        width: 13rem;
+        text-align: center;
+    }
+    .header nav {column-gap: 7.8rem;}
+    .header-page{width: 39.3rem;font-size: 4.8rem;}
+    .header::before{top: -75px;left: -108px;}
+    .booked-people{flex-direction: column;}
+    .people-imgs{margin: 0 auto;}
+    .Ellipse-img-1{
+        max-width: 40rem;
+        height: 55rem;
+        margin-left: 12rem;
+    }
+    .Ellipse-img-2{max-width: 22rem;left: -3rem}
+    .Ellipse-img-3{left: 12rem;max-width: 12rem;top:20rem;}
+    .Ellipse-img-4{top: 11rem;left: 18rem; max-width: 7rem;}
+    .co-work {left: 0.7rem;top: 38.9rem;font-size: 3.7rem;}
+    .form-place {
+        gap: 0;
+        top: 52rem;
+        left: -28rem;
+        width: 55rem;       
+    }
+    #myBtn #popuptext{margin-left: -63px; width: 18rem;}
+
+    .first-page{padding-bottom: 55.8rem;}
+    .logos{padding-top: 10rem;}
+    .logo{
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        gap: 2rem;
+        margin-bottom: 20rem;
+    }
+    .services-left-side,
+    .services-right-side,
+    .solutions-left-side,
+    .solutions-right-side,
+    .gallery-left-side,
+    .gallery-right-side,
+    .become-A-Member-left-side,
+    .become-A-Member-right-side{
+        width: 55rem;
+    }
+    .services .container{margin: 0 auto; row-gap: 0;}
+    .services .workspace-img-1 {max-width: 80%;margin-left: 5rem;}
+    .services .workspace-img-2 {
+        left: 40rem;
+        top: 40rem;
+        width: 15rem;
+        height: 15rem;
+    }
+    .Rec1{left: 6.6rem;top: -88px;}
+    .Rec2{left: -15rem;top: -5rem;max-width: 22rem;}
+    .Rec3{left: 11rem;max-width: 17rem;top: 165px;}
+    .Rec4{left: -21rem;top: 205px;max-width: 27rem;}
+    .Ellipse-11{left: -23.8rem;top: 30rem;max-width: 12rem;}
+    .services-right-side .Paragraph,
+    .visions-left-side .Paragraph,
+    .become-A-Member-left-side .Paragraph,
+    .solutions-left-side .Paragraph{
+        width: 45rem;
+    }
+    .services-right-side {padding: 0rem;}
+    .visions {padding-bottom: 57rem;}
+    .visions-right-side::before {left: -25rem; height: 35rem; width: 45rem;}
+    .visions-left-side {width: 55rem;}
+    .visions-sm-parargraph .data{column-gap: 3rem;}
+    .solutions .general-button {margin-left: 0rem;}
+    .whyChooseUs .container{width:65rem}
+    .whyChooseUs-lower-page{grid-template-columns: 1fr;}
+    .photos{
+        width: 38rem;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .become-A-Member-right-side::before {top: -29.6rem; display: none;}
+    .become-A-Member .container {row-gap: 6rem;}
+    .last-update-left-page .left-side{margin-bottom: 2rem;}
+    .news{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        position: relative;
+        height: 55rem;
+    }
+    .news-box{
+        grid-column: 1/-1;
+        grid-row: 2/ -1;
+        align-items: center;
+    }
+    .news-box .heading-secondary, 
+    .news-box .Paragraph {
+        text-align: center;
+    }
+    .news::before{left: 18.2rem;top: -3rem;}
+    .news img{
+        left: 0;
+        top: 0;
+        grid-column: 1/ -1;
+        grid-row: 1/2;
+        margin: 0 auto;
+        position: relative;
+    }
+    .space{
+        width: 62rem;
+        height: 80rem;
+        padding-top: 8rem;
+        padding-left: 0rem;
+        margin: 0 auto;
+    }
+    .space .container{
+        row-gap: 5rem;
+        column-gap: 0rem;
+        width: 40rem;
+        text-align: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .space .heading-secondary,
+    .space .subheading,
+    .space .list{
+        text-align: center;
+        margin: 3rem auto;
+    }
+    .space .Paragraph{text-align: center;}
+    .heading-secondary{font-size: 4.8rem;}
+}
+
+/* Below 384px 24em (mobile Medium) */
+@media (max-width:24em){
+    .the-toggler span {
+        width: 37px;
+        height: 4px;
+    }
+    .header .navbar{
+        left: 286px;
+    }
+    .form-place {width: 52rem;}
+    .services .workspace-img-1 { max-width: 70%;}
+    .services .workspace-img-2 {
+        left: 34rem;
+        top: 32rem;
+    }
+    .services-left-side{height: 59.3rem;}
+    .visions-left-side .heading-secondary {
+        width: 40rem;
+    }
+    .Rec1 {
+        top: -82px;
+        max-width: 12rem;
+    }
+    .Rec2 {max-width: 20rem;}
+    .Rec3 {max-width: 14rem;}
+    .Rec4{
+        top: 195px;
+        max-width: 24rem;
+    }
+    .whyChooseUs .container {width: 55rem;}
+    .gallery-right-side img {
+        max-width: 90%;
+        margin-left: 2rem;
+    }
+    .solutions-right-side img{
+        max-width: 90%;
+        margin: 2rem;
+    }
+    .last-updates .heading-secondary {width: 43.7rem;}
+    .space {width: 55rem;}
+    .space .container {width: 40rem;}
+    .heading-secondary {font-size: 4.2rem;}
+}
+
+/* Below 320px 20em (mobile Small)*/
+@media (max-width:20em){
+    .header .navbar {left: 231px;}
+    .header-page {
+        width: 32.3rem;
+        font-size: 4rem;
+    }
+    .header nav {column-gap: 0rem;}
+    .container {width: 325px;}
+    .workspace {
+        max-width: 34rem;
+        margin: 2rem auto;
+    }
+    .Ellipse-img-1 {
+        max-width: 34rem;
+        height: 45rem;
+        margin-left: 18rem;
+    }
+    .Ellipse-img-2 {max-width: 18rem;}
+    .Ellipse-img-3 {
+        max-width: 10rem;
+        top: 16rem;
+    }
+    .Ellipse-img-4 {
+        top: 6rem;
+        left: 15rem;
+        max-width: 6rem;
+    }    
+    .co-work {
+        top: 30.9rem;
+        font-size: 2.7rem;
+    }
+    .form-place {
+        width: 45rem;
+        top: 44rem;
+        left: -23rem;
+    }
+    #loc,
+    .form-place button,
+    #myBtn{
+        width: 12rem;
+    }
+    #myBtn #popuptext {
+        margin-left: -47px;
+        width: 14rem;
+    }
+    .logos {padding-top: 2rem;}
+    .services .workspace-img-1 {max-width: 60%;}
+    .services .workspace-img-2 {
+        left: 31rem;
+        top: 28rem;
+        width: 12rem;
+        height: 12rem;
+    }
+    .bullets {
+        padding: 2rem;
+        margin-left: 19rem;
+        text-align: justify;
+    }
+    .visions {
+        padding-bottom: 32rem;
+    }    
+    .visions-right-side::before {
+        left: -18rem;
+        height: 27rem;
+        width: 35rem;
+    }
+    .Rec1 {
+        top: -68px;
+        max-width: 10rem;
+    }
+    .Rec2 {
+        max-width: 15rem;
+        left: -10rem;
+    }
+    .Rec3 {
+        max-width: 12rem;
+        top: 20rem;
+        left: 10rem;
+    }
+    .Rec4 {
+        top: 137px;
+        left: -15rem;
+        max-width: 20rem;
+    }
+    .Ellipse-11 {
+        left: -16.8rem;
+        top: 24rem;
+        max-width: 7rem;
+    }
+    .services-left-side {height: 54.3rem;}
+    .services-right-side .Paragraph, 
+    .visions-left-side .Paragraph, 
+    .become-A-Member-left-side .Paragraph, 
+    .solutions-left-side .Paragraph {
+        width: 37rem;
+    }
+    .services-right-side .heading-secondary,
+    .whyChooseUs-upper-page .heading-secondary{
+        width: 35.6rem;
+    }
+    .gallery-left-side .heading-secondary {width: 47.7rem;}
+    .gallery-right-side {height: 53.1rem;}
+    .become-A-Member-left-side .heading-secondary {width: 41.5rem;}
+    .become-A-Member-left-side {gap: 3rem;}
+    .services-right-side,
+    .visions-left-side,
+    .solutions-left-side,
+    .gallery-left-side, 
+    .gallery-right-side,
+    .become-A-Member-left-side, 
+    .become-A-Member-right-side{
+        width: 47rem;
+        padding-left: 0;
+        margin-left: 1px;
+    }
+    .whyChooseUs .container {
+        width: 40rem;
+    }
+    .solutions .general-button {margin-top: 3rem;}
+    .solutions-right-side img{max-width: 80%;}
+    .enter-your-info {
+        width: 38.1rem;
+        height: 48.7rem;
+    }
+    .news{
+        width: 40rem;
+    }   
+    .news::before {
+        left: 11.2rem;
+    }
+    .space .container {
+        width: 30rem;
+        margin: 0 9rem;
+    }
+}
